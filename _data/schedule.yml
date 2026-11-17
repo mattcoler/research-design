@@ -57,7 +57,7 @@ classes:
     unit: 2
     read:
       - {label: MERC, url: /frameworks/merc/}
-      - {label: Peer review guidelines, url: /frameworks/peer-review/}
+      - {label: peer review guidelines, url: /frameworks/peer-review/}
     assign: {label: Checkpoint 2, url: /assignments/checkpoint-2/}
   - n: 5
     week: 3
@@ -77,7 +77,7 @@ classes:
     topic: "Ethics + critical practice: card game"
     unit: 4
     read:
-      - {label: Ethics card game, url: /games/#ethics-card-game}
+      - {label: card game, url: /games/#ethics-card-game}
   - n: 8
     week: 4
     date: 2027-02-26
@@ -113,7 +113,7 @@ classes:
     topic: Poster session + Research Futures challenge
     unit: 5
     read:
-      - {label: Research Futures, url: /games/#research-futures}
+      - {label: Research Futures challenge, url: /games/#research-futures}
 
 # The field trip replaces one class.
 fieldtrip:

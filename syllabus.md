@@ -5,23 +5,25 @@ title: Syllabus
 
 # Syllabus
 
-Research Design, MSc Speech Technology, {{ s.academic_year }}. Course code [{{ s.course_code }}](https://ocasys.rug.nl/{{ s.academic_year }}/catalog/course/{{ s.course_code }}), 5 EC. Lecturer: Dr Matt Coler, [m.coler@rug.nl](mailto:m.coler@rug.nl).
+Research Design, MSc Speech Technology, {{ s.academic_year }}<br>
+Course code [{{ s.course_code }}](https://ocasys.rug.nl/{{ s.academic_year }}/catalog/course/{{ s.course_code }}), 5 EC<br>
+Lecturer: Dr Matt Coler, [m.coler@rug.nl](mailto:m.coler@rug.nl)
 
 ## What you'll do
 
-You learn to formulate research questions, conduct systematic lit reviews, design sound methodologies, and communicate your research. By the end you have a complete research proposal on a speech technology topic of your choice, a springboard for your master's thesis.
+You learn to formulate research questions, conduct systematic lit reviews, design sound methodologies, and communicate your research. By the end you have a complete research proposal on a speech technology topic, a springboard for your master's thesis.
 
 ## How the course runs
 
-Seven teaching weeks, two 105-minute classes a week, {{ s.days | downcase }} {{ s.time }}: {{ s.classes.size }} classes plus a field trip. Each of the five units builds on the one before:
+Seven teaching weeks, two 105-minute classes a week, {{ s.days }}, {{ s.time }}: {{ s.classes.size }} classes plus a field trip. Each of the five units builds on the one before:
 
 1. **Research foundations:** research as conversation, and a focused RQ
-2. **Literature mastery:** systematic search (PRISMA), critical reading (MERC), gaps (TIPS)
-3. **Hypothesis development:** from a gap to a testable prediction
-4. **Research design:** ethics, methods, feasibility and pilots, and a peer review intensive
-5. **Research communication:** writing and revision, reproducibility, posters, and a poster session
+2. **Literature mastery:** systematic search, critical reading, and finding a gap
+3. **Hypothesis development:** from a gap to a testable prediction situated in the state-of-the-art
+4. **Research design:** ethics, methods, feasibility and pilots, and an intensive round of peer review
+5. **Research communication:** writing and revision, reproducibility, and academic posters
 
-On {% include tripdate.html fmt="medium" %} we go to {{ s.fieldtrip.name }} in {{ s.fieldtrip.place }}, which replaces the {% include tripdate.html which="replaces" fmt="medium" %} class. You write up a page of field notes; Class 8 explains what's expected.
+On {% include tripdate.html fmt="medium" %} we go to {{ s.fieldtrip.name }} in {{ s.fieldtrip.place }}, which replaces the {% include tripdate.html which="replaces" fmt="medium" %} class. Class 8 explains what's expected.
 
 Dates, handouts and deadlines are on the [schedule]({{ '/schedule/' | relative_url }}). Prep tasks and readings are in BrightSpace.
 
@@ -60,7 +62,11 @@ AI tools can speed up research when they scaffold your thinking. They undermine 
 
 ## Academic integrity
 
-Show where your ideas come from and cite with APA. All assignments are checked for plagiarism, and suspected cases go to the Board of Examiners.
+Show where your ideas come from and cite with APA. All assignments are checked for plagiarism.
+
+Check every source you cite. If your work contains a fabricated reference, or credits a source with a claim it doesn't make, I treat it as a breach of the AI policy: you fail the assignment and I refer the case to the Board of Examiners.
+
+I don't want to read AI-generated text, and I don't much want to read AI-polished text either. It's flat, and it hides you. I want your own words and your own voice, rough edges included. Writing is thinking. Don't outsource your thinking.
 
 ## Attendance
 
