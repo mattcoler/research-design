@@ -1,0 +1,10 @@
+{%- comment -%}
+Prints the date of a class from _data/schedule.yml.
+Use: {% include classdate.html n="9" %}            -> Friday 5 March 2027
+     {% include classdate.html n="9" fmt="medium" %} -> Friday 5 March
+     {% include classdate.html n="9" fmt="short" %}  -> Fri 5 Mar
+{%- endcomment -%}
+{%- assign c = site.data.schedule.classes | where: "n", include.n | first -%}
+{%- if include.fmt == "short" -%}{{ c.date | date: "%a %-d %b" }}
+{%- elsif include.fmt == "medium" -%}{{ c.date | date: "%A %-d %B" }}
+{%- else -%}{{ c.date | date: "%A %-d %B %Y" }}{%- endif -%}

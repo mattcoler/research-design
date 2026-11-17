@@ -1,0 +1,31 @@
+title: Research Design
+description: MSc Speech Technology, University of Groningen, Campus Fryslân
+author: Matt Coler
+
+# The site lives at https://mattcoler.github.io/research-design/
+url: https://mattcoler.github.io
+baseurl: /research-design
+
+repository: mattcoler/research-design
+
+permalink: pretty
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+
+# Every page uses the default layout unless it says otherwise
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+exclude:
+  - README.md
+  - LICENSE
+  - scripts/
+  - Gemfile
+  - Gemfile.lock

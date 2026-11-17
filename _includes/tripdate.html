@@ -1,0 +1,9 @@
+{%- comment -%}
+Prints the field trip date (fmt as in classdate.html). Add which="replaces"
+for the date of the class it replaces.
+{%- endcomment -%}
+{%- assign t = site.data.schedule.fieldtrip -%}
+{%- if include.which == "replaces" -%}{%- assign x = t.replaces -%}{%- else -%}{%- assign x = t.date -%}{%- endif -%}
+{%- if include.fmt == "short" -%}{{ x | date: "%a %-d %b" }}
+{%- elsif include.fmt == "medium" -%}{{ x | date: "%A %-d %B" }}
+{%- else -%}{{ x | date: "%A %-d %B %Y" }}{%- endif -%}

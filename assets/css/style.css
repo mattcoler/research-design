@@ -1,0 +1,68 @@
+/* University of Groningen colours */
+:root {
+  --rugred: #CC0000;
+  --rugcyan: #009CEF;
+  --text: #222;
+  --muted: #595959;
+  --rule: #ddd;
+  --shade: #f5f5f5;
+}
+
+* { box-sizing: border-box; }
+
+html { font-size: 100%; }
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.0625rem;
+  line-height: 1.6;
+  color: var(--text);
+  background: #fff;
+}
+
+.wrap { max-width: 46rem; margin: 0 auto; padding: 0 1.25rem; }
+
+.skip { position: absolute; left: -999px; }
+.skip:focus { left: 1rem; top: 1rem; background: #fff; padding: .5rem; }
+
+/* Header */
+.site-header { border-top: 6px solid var(--rugred); border-bottom: 1px solid var(--rule); padding: 1rem 0 .5rem; margin-bottom: 2rem; }
+.site-title { font-size: 1.5rem; font-weight: bold; color: var(--rugred); text-decoration: none; }
+.site-sub { display: block; color: var(--muted); font-size: .95rem; }
+.site-header nav ul { list-style: none; margin: .75rem 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: .25rem 1.1rem; }
+.site-header nav a { color: var(--text); text-decoration: none; padding-bottom: 2px; border-bottom: 3px solid transparent; }
+.site-header nav a:hover { border-bottom-color: var(--rule); }
+.site-header nav a[aria-current="page"] { border-bottom-color: var(--rugcyan); }
+
+/* Text */
+h1, h2, h3, h4 { line-height: 1.25; margin: 2rem 0 .75rem; }
+h1 { color: var(--rugred); font-size: 2rem; margin-top: 0; }
+h2 { font-size: 1.4rem; border-bottom: 1px solid var(--rule); padding-bottom: .25rem; }
+h3 { font-size: 1.15rem; }
+h4 { font-size: 1rem; }
+a { color: var(--rugred); }
+a:hover { color: #990000; }
+blockquote { margin: 1rem 0; padding: .25rem 1rem; border-left: 4px solid var(--rugcyan); background: var(--shade); }
+code { font-size: .95em; background: var(--shade); padding: 0 .2em; }
+hr { border: 0; border-top: 1px solid var(--rule); margin: 2rem 0; }
+
+/* Tables */
+table { border-collapse: collapse; width: 100%; margin: 1rem 0 1.5rem; font-size: .95rem; display: block; overflow-x: auto; }
+th, td { text-align: left; vertical-align: top; padding: .45rem .6rem; border-bottom: 1px solid var(--rule); }
+th { border-bottom: 2px solid var(--rugcyan); }
+tr.trip td { background: var(--shade); }
+
+/* Brief header block */
+.facts { background: var(--shade); border-left: 4px solid var(--rugred); padding: .75rem 1rem; margin: 0 0 1.5rem; }
+.facts p { margin: .2rem 0; }
+
+.notice { background: #fff4e5; border-left: 4px solid #e69500; padding: .6rem 1rem; }
+
+.site-footer { border-top: 1px solid var(--rule); margin-top: 3rem; padding: 1rem 0 2rem; color: var(--muted); font-size: .9rem; }
+.site-footer a { color: var(--muted); }
+
+@media print {
+  .site-header nav, .site-footer, .skip { display: none; }
+  a { color: inherit; }
+}

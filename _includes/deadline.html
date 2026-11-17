@@ -1,0 +1,16 @@
+{%- comment -%}
+Prints a deadline from _data/schedule.yml.
+Use: {% include deadline.html id="cp1_due" %}                     -> Sunday 21 February 2027
+     {% include deadline.html id="cp1_due" fmt="medium" %}        -> Sunday 21 February
+     {% include deadline.html id="cp1_due" fmt="short" %}         -> Sun 21 Feb
+     add time="y" to append the time                              -> Sunday 21 February 2027, 23:59
+{%- endcomment -%}
+{%- assign d = site.data.schedule.deadlines | where: "id", include.id | first -%}
+{%- if d.date == "" or d.date == nil -%}
+{%- if include.fmt == "short" -%}{{ d.short }}{%- else -%}{{ d.long }}{%- endif -%}
+{%- else -%}
+{%- if include.fmt == "short" -%}{{ d.date | date: "%a %-d %b" }}
+{%- elsif include.fmt == "medium" -%}{{ d.date | date: "%A %-d %B" }}
+{%- else -%}{{ d.date | date: "%A %-d %B %Y" }}{%- endif -%}
+{%- if include.time == "y" and d.time != "" -%}, {{ d.time }}{%- endif -%}
+{%- endif -%}

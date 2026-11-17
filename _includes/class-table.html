@@ -1,0 +1,22 @@
+{%- comment -%}
+Class overview table, built from _data/schedule.yml. The field trip is
+slotted in before the first class that comes after it.
+{%- endcomment -%}
+{%- assign s = site.data.schedule -%}
+{%- assign td = s.fieldtrip.date | date: "%Y%m%d" -%}
+{%- assign trip_shown = false -%}
+<table>
+  <thead>
+    <tr><th>Week</th><th>Date</th><th>Class</th><th>Topic</th><th>Unit</th></tr>
+  </thead>
+  <tbody>
+{%- for c in s.classes %}
+{%- assign cd = c.date | date: "%Y%m%d" -%}
+{%- if trip_shown == false and td < cd %}
+    <tr class="trip"><td>{{ s.fieldtrip.week }}</td><td>{{ s.fieldtrip.date | date: "%a %-d %b" }}</td><td>Field trip</td><td>{{ s.fieldtrip.name }}, {{ s.fieldtrip.place }} (replaces {{ s.fieldtrip.replaces | date: "%a %-d %b" }})</td><td></td></tr>
+{%- assign trip_shown = true -%}
+{%- endif %}
+    <tr><td>{{ c.week }}</td><td>{{ c.date | date: "%a %-d %b" }}</td><td>{{ c.n }}</td><td>{{ c.topic }}</td><td>{{ c.unit }}</td></tr>
+{%- endfor %}
+  </tbody>
+</table>

@@ -1,0 +1,152 @@
+# ------------------------------------------------------------------
+# All dates for the course live in this one file.
+#
+# Rolling over to a new year:
+#   1. Change the year labels just below.
+#   2. Change the date of every class, the field trip and every deadline.
+#   3. Nothing else on the site needs editing for dates.
+#
+# Dates are written YYYY-MM-DD. Times are 24-hour, in quotes.
+# ------------------------------------------------------------------
+
+year: "2026-27"              # short form, used in page titles
+academic_year: "2026-2027"   # long form, also used in the Ocasys link
+course_code: CFMVT09A05
+days: Tuesdays and Fridays
+time: "13:15-15:00"
+
+units:
+  - n: 1
+    name: Research foundations
+  - n: 2
+    name: Literature mastery
+  - n: 3
+    name: Hypothesis development
+  - n: 4
+    name: Research design
+  - n: 5
+    name: Research communication
+
+classes:
+  - n: 1
+    week: 1
+    date: 2027-02-02
+    topic: Entering the conversation
+    unit: 1
+  - n: 2
+    week: 1
+    date: 2027-02-05
+    topic: RQ workshop (FARES)
+    unit: 1
+  - n: 3
+    week: 2
+    date: 2027-02-09
+    topic: Strategic lit discovery (PRISMA)
+    unit: 2
+  - n: 4
+    week: 2
+    date: 2027-02-12
+    topic: Critical analysis + synthesis (MERC)
+    unit: 2
+  - n: 5
+    week: 3
+    date: 2027-02-16
+    topic: Gap identification + positioning (TIPS)
+    unit: 2
+  - n: 6
+    week: 3
+    date: 2027-02-19
+    topic: From questions to predictions
+    unit: 3
+  - n: 7
+    week: 4
+    date: 2027-02-23
+    topic: "Ethics + critical practice: card game"
+    unit: 4
+  - n: 8
+    week: 4
+    date: 2027-02-26
+    topic: Methodology, feasibility + pilot studies
+    unit: 4
+  - n: 9
+    week: 5
+    date: 2027-03-05
+    topic: Peer review intensive (Checkpoint 2)
+    unit: 4
+  - n: 10
+    week: 6
+    date: 2027-03-09
+    topic: Writing + revision clinic
+    unit: 5
+  - n: 11
+    week: 6
+    date: 2027-03-12
+    topic: "Open science + reproducibility: LEGO challenge"
+    unit: 5
+  - n: 12
+    week: 7
+    date: 2027-03-16
+    topic: "Science communication: pitch + poster clinic"
+    unit: 5
+  - n: 13
+    week: 7
+    date: 2027-03-19
+    topic: Poster session + Research Futures challenge
+    unit: 5
+
+# The field trip replaces one class.
+fieldtrip:
+  week: 5
+  date: 2027-03-01
+  replaces: 2027-03-02
+  name: Dutch Speech Tech Day
+  short: DuST
+  place: Delft
+  venue: Mondai | House of AI on the TU Delft campus
+
+# Deadlines, in date order. Leave time empty ("") if none is set.
+# For a deadline without a fixed date yet, leave date empty and fill in
+# long and short (the wording shown on the site).
+deadlines:
+  - id: cp1_due
+    label: Checkpoint 1
+    date: 2027-02-21
+    time: "23:59"
+  - id: cp1_review
+    label: Peer review of Checkpoint 1 (FeedbackFruits)
+    date: 2027-02-24
+    time: "23:59"
+  - id: cp2_due
+    label: Checkpoint 2
+    date: 2027-02-28
+    time: "23:59"
+  - id: dust_notes
+    label: DuST field notes (participation)
+    date: 2027-03-03
+    time: ""
+  - id: cp2_review
+    label: Peer review of Checkpoint 2 (FeedbackFruits)
+    date: 2027-03-03
+    time: "23:59"
+  - id: blog_due
+    label: "Communication portfolio: blog post"
+    date: 2027-03-07
+    time: "23:59"
+  - id: blog_review
+    label: Peer review of two blog posts (FeedbackFruits)
+    date: 2027-03-14
+    time: "23:59"
+  - id: poster_pdf
+    label: "Communication portfolio: poster PDF"
+    date: 2027-03-15
+    time: "23:59"
+  - id: participation
+    label: Participation self-assessment
+    date: 2027-03-21
+    time: "23:59"
+  - id: proposal_due
+    label: Research proposal
+    date: ""
+    time: ""
+    long: exam period, week of 22 March 2027
+    short: Exam period, week of 22 Mar (exact date TBC)
