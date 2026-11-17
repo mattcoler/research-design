@@ -102,7 +102,7 @@ fieldtrip:
   name: Dutch Speech Tech Day
   short: DuST
   place: Delft
-  venue: Mondai | House of AI on the TU Delft campus
+  venue: "Mondai &#124; House of AI on the TU Delft campus"
 
 # Deadlines, in date order. Leave time empty ("") if none is set.
 # For a deadline without a fixed date yet, leave date empty and fill in
