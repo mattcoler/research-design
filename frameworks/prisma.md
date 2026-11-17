@@ -1,5 +1,9 @@
 ---
 title: PRISMA
+section: Content
+parent:
+  title: Frameworks
+  url: /frameworks/
 ---
 
 # PRISMA: documenting a literature search

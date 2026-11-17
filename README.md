@@ -13,12 +13,13 @@ GitHub Pages builds the site automatically with Jekyll every time something is c
 | What | Where |
 | :---- | :---- |
 | All dates (classes, field trip, deadlines) | `_data/schedule.yml` |
-| Home page | `index.md` |
-| Syllabus | `syllabus.md` |
-| Schedule page (generated from the dates file) | `schedule.md` |
+| Home page (course details and how the course works) | `index.md` |
+| Syllabus, including the AI policy | `syllabus.md` |
+| Schedule page (built from the dates file) | `schedule.md` |
+| Content hub | `content.md` |
 | Assignment briefs | `assignments/` |
 | FARES, PRISMA, MERC, TIPS, peer review guidelines | `frameworks/` |
-| AI policy, games, course design, licence | `ai-policy.md`, `games.md`, `course-design.md`, `licence.md` |
+| Games | `games.md` |
 | Frozen copies of each year's briefs | `archive/<year>/` |
 | Menu | `_data/navigation.yml` |
 | Look and layout | `_layouts/default.html`, `assets/css/style.css` |
@@ -42,4 +43,4 @@ Do this once the old year is over and before you change any dates.
 
 ## Licence
 
-Course text: © Matt Coler, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Site code: MIT, see `LICENSE`.
+Course text: © Matt Coler, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Site code: MIT, see `LICENSE`. The LEGO challenge is adapted from the LEGO® Metadata for Reproducibility game pack by Mary Donaldson and Matt Mahon (University of Glasgow), CC BY 4.0.

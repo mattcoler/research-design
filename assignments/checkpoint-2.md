@@ -1,5 +1,9 @@
 ---
 title: Checkpoint 2
+section: Content
+parent:
+  title: Assignments
+  url: /assignments/
 ---
 
 # Checkpoint 2
@@ -28,7 +32,7 @@ You must write your checkpoint directly in Google Docs and share the link in Bri
 - ⚠️ Warning signs: single large text insertions at the level of sentences, minimal edits, perfectly formatted on first draft, no visible struggle
 - 🚩 Red flags: entire sections pasted at once, no revision marks, suspiciously polished prose throughout
 
-If you use AI tools, include a short AI usage statement as described in our [class AI policy]({{ '/ai-policy/' | relative_url }}).
+If you use AI tools, include a short AI usage statement as described in our [class AI policy]({{ '/syllabus/' | relative_url }}#ai-policy).
 
 ## What to submit
 

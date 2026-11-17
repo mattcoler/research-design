@@ -1,5 +1,9 @@
 ---
 title: Communication portfolio
+section: Content
+parent:
+  title: Assignments
+  url: /assignments/
 ---
 
 # Communication portfolio
@@ -79,4 +83,4 @@ Each criterion is scored at three levels: full points when it is fully met, half
 - **Poster (8):** one clear main message (2); question, gap and method correct and consistent with the proposal draft (3); visual design that supports reading at a distance (2); file submitted on time in the required format (1).
 - **Presentation (4):** clear 5-minute explanation for a mixed audience (2); answers questions accurately and openly (2). The mark is the average of my score and the mean of your classmates' scores on the evaluation forms.
 
-Use of AI tools follows the [class AI policy]({{ '/ai-policy/' | relative_url }}); include a short AI usage statement at the end of the blog post document if you used them.
+Use of AI tools follows the [class AI policy]({{ '/syllabus/' | relative_url }}#ai-policy); include a short AI usage statement at the end of the blog post document if you used them.

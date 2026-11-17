@@ -1,5 +1,9 @@
 ---
 title: TIPS
+section: Content
+parent:
+  title: Frameworks
+  url: /frameworks/
 ---
 
 # The TIPS framework for evaluating research gaps

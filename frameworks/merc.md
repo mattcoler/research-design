@@ -1,5 +1,9 @@
 ---
 title: MERC
+section: Content
+parent:
+  title: Frameworks
+  url: /frameworks/
 ---
 
 # MERC: critical analysis of research papers

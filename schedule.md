@@ -1,25 +1,58 @@
 ---
 title: Schedule
+wide: true
 ---
 {%- assign s = site.data.schedule -%}
+{%- assign td = s.fieldtrip.date | date: "%Y%m%d" -%}
+{%- assign prev = "00000000" -%}
+{%- assign unit = 0 -%}
 
-# Schedule {{ s.year }}
+# Schedule
 
-Classes run on {{ s.days }}, {{ s.time }}. Rooms, readings and prep tasks for each class are in BrightSpace.
+The course week by week, {{ s.year }}. Each class links to its handout and to any assignment it sets. Prep tasks and readings are in BrightSpace.
 
-## Classes
-
-{% include class-table.html %}
-
-## Deadlines
-
-<table>
-  <thead><tr><th>Due</th><th>What</th></tr></thead>
-  <tbody>
-{%- for d in s.deadlines %}
-    <tr><td>{% if d.date == "" or d.date == nil %}{{ d.short }}{% else %}{{ d.date | date: "%a %-d %b" }}{% if d.time != "" %}, {{ d.time }}{% endif %}{% endif %}</td><td>{{ d.label }}</td></tr>
+<table class="schedule">
+<thead><tr><th>Date</th><th>Class</th><th>Topic</th><th>Handout</th><th>Assignment</th></tr></thead>
+<tbody>
+{%- for c in s.classes %}
+{%- assign cd = c.date | date: "%Y%m%d" -%}
+{%- assign trip_here = false -%}
+{%- if td > prev -%}{%- if td < cd -%}{%- assign trip_here = true -%}{%- endif -%}{%- endif -%}
+{%- for d in s.deadlines -%}
+{%- if d.date != "" -%}
+{%- assign dd = d.date | date: "%Y%m%d" -%}
+{%- if dd > prev and dd <= cd -%}
+{%- if trip_here == false or dd < td %}
+<tr class="due"><td class="nowrap">{{ d.date | date: "%a %-d %b" }}</td><td></td><td class="what" colspan="3">{% if d.url %}<a href="{{ d.url | relative_url }}">{{ d.label }}</a>{% else %}{{ d.label }}{% endif %}{% if d.time != "" %}, {{ d.time }}{% endif %}</td></tr>
+{%- endif -%}
+{%- endif -%}
+{%- endif -%}
+{%- endfor -%}
+{%- if trip_here %}
+<tr class="trip"><td class="nowrap">{{ s.fieldtrip.date | date: "%a %-d %b" }}</td><td>Trip</td><td colspan="3">{{ s.fieldtrip.name }}, {{ s.fieldtrip.place }} (replaces the {{ s.fieldtrip.replaces | date: "%a %-d %b" }} class)</td></tr>
+{%- for d in s.deadlines -%}
+{%- if d.date != "" -%}
+{%- assign dd = d.date | date: "%Y%m%d" -%}
+{%- if dd >= td and dd <= cd %}
+<tr class="due"><td class="nowrap">{{ d.date | date: "%a %-d %b" }}</td><td></td><td class="what" colspan="3">{% if d.url %}<a href="{{ d.url | relative_url }}">{{ d.label }}</a>{% else %}{{ d.label }}{% endif %}{% if d.time != "" %}, {{ d.time }}{% endif %}</td></tr>
+{%- endif -%}
+{%- endif -%}
+{%- endfor -%}
+{%- endif -%}
+{%- if c.unit != unit -%}
+{%- assign unit = c.unit -%}
+{%- assign u = s.units | where: "n", c.unit | first %}
+<tr class="unit"><td colspan="5">Unit {{ u.n }}: {{ u.name }}</td></tr>
+{%- endif %}
+<tr><td class="nowrap">{{ c.date | date: "%a %-d %b" }}</td><td>{{ c.n }}</td><td>{{ c.topic }}</td><td>{% for r in c.read %}<a href="{{ r.url | relative_url }}">{{ r.label }}</a>{% unless forloop.last %}<br>{% endunless %}{% endfor %}</td><td>{% if c.assign %}<a href="{{ c.assign.url | relative_url }}">{{ c.assign.label }}</a>{% endif %}</td></tr>
+{%- assign prev = cd -%}
+{%- endfor -%}
+{%- for d in s.deadlines -%}
+{%- assign dd = "99999999" -%}
+{%- if d.date != "" -%}{%- assign dd = d.date | date: "%Y%m%d" -%}{%- endif -%}
+{%- if dd > prev %}
+<tr class="due"><td{% if d.date != "" %} class="nowrap"{% endif %}>{% if d.date != "" %}{{ d.date | date: "%a %-d %b" }}{% else %}{{ d.short }}{% endif %}</td><td></td><td class="what" colspan="3">{% if d.url %}<a href="{{ d.url | relative_url }}">{{ d.label }}</a>{% else %}{{ d.label }}{% endif %}{% if d.time != "" %}, {{ d.time }}{% endif %}</td></tr>
+{%- endif -%}
 {%- endfor %}
-  </tbody>
+</tbody>
 </table>
-
-The printed poster and the poster presentation are due in Class 13 ({% include classdate.html n="13" fmt="short" %}). See the [assignment briefs]({{ '/assignments/' | relative_url }}) for what each deadline involves.

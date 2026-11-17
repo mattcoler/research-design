@@ -1,5 +1,9 @@
 ---
 title: Peer review guidelines
+section: Content
+parent:
+  title: Frameworks
+  url: /frameworks/
 ---
 
 # Peer review guidelines for research analysis

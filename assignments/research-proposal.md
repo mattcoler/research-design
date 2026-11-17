@@ -1,5 +1,9 @@
 ---
 title: Research proposal
+section: Content
+parent:
+  title: Assignments
+  url: /assignments/
 ---
 
 # Research proposal
@@ -28,7 +32,7 @@ Write the proposal directly in Google Docs. Continuing in your Checkpoint 2 docu
 - ⚠️ Warning signs: large blocks inserted at once, almost no edits, perfectly formatted on first draft
 - 🚩 Red flags: whole sections pasted in, no revision marks, polished prose throughout from the start
 
-If you use AI tools, add the AI usage statement described in our [class AI policy]({{ '/ai-policy/' | relative_url }}) as an appendix.
+If you use AI tools, add the AI usage statement described in our [class AI policy]({{ '/syllabus/' | relative_url }}#ai-policy) as an appendix.
 
 ## What to submit
 

@@ -1,5 +1,9 @@
 ---
 title: FARES
+section: Content
+parent:
+  title: Frameworks
+  url: /frameworks/
 ---
 
 # The FARES framework for evaluating research questions

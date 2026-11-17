@@ -1,20 +1,15 @@
 ---
 title: Games
+section: Content
 ---
 
 # Games
 
-Three games run through the course. Each puts you in a research situation first; the discussion afterwards is where the learning happens. The [course design]({{ '/course-design/' | relative_url }}) page explains why.
-
-| Game | Class | Unit |
-| :---- | :---- | :---- |
-| [Ethics card game](#ethics-card-game) | Class 7 ({% include classdate.html n="7" fmt="short" %}) | 4: Research design |
-| [LEGO reproducibility challenge](#lego-reproducibility-challenge) | Class 11 ({% include classdate.html n="11" fmt="short" %}) | 5: Research communication |
-| [Research Futures](#research-futures) | Class 13 ({% include classdate.html n="13" fmt="short" %}) | 5: Research communication |
+Three games run through the course. You play first; the discussion afterwards is where the learning happens.
 
 ## Ethics card game
 
-In Class 7 you play in groups of three or four. Each dilemma card describes a situation from speech technology research with two options, A and B. Every option costs something, and the game makes you say what.
+In Class 7 ({% include classdate.html n="7" fmt="short" %}) you play in groups of three or four. Each dilemma card describes a situation from speech technology research with two options, A and B. Every option costs something, and the game makes you say what.
 
 ### How to play (one rules sheet per group)
 
@@ -44,7 +39,7 @@ The dilemma cards are handed out in class. In the second half of the class you w
 
 ## LEGO reproducibility challenge
 
-In Class 11 you work in pairs, each pair with an identical LEGO kit. The game shows how much a description leaves out, even when its author thinks it's complete.
+In Class 11 ({% include classdate.html n="11" fmt="short" %}) you work in pairs, each pair with an identical LEGO kit. The game shows how much a description leaves out, even when its author thinks it's complete.
 
 ### Build, document, swap, rebuild
 
@@ -63,7 +58,7 @@ The challenge is adapted from the LEGO® Metadata for Reproducibility game pack 
 
 ## Research Futures
 
-Research Futures runs during the poster session in Class 13. Every student and guest gets five Research Futures grant notes and invests them in the projects they would fund.
+Research Futures runs during the poster session in Class 13 ({% include classdate.html n="13" fmt="short" %}). Every student and guest gets five Research Futures grant notes and invests them in the projects they would fund.
 
 ### Rules
 

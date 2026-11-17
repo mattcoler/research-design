@@ -27,6 +27,8 @@ units:
   - n: 5
     name: Research communication
 
+# Each class can list handouts to read (read) and an assignment it launches
+# (assign). These are links, not dates, and rarely change.
 classes:
   - n: 1
     week: 1
@@ -38,21 +40,32 @@ classes:
     date: 2027-02-05
     topic: RQ workshop (FARES)
     unit: 1
+    read:
+      - {label: FARES, url: /frameworks/fares/}
+    assign: {label: Checkpoint 1, url: /assignments/checkpoint-1/}
   - n: 3
     week: 2
     date: 2027-02-09
     topic: Strategic lit discovery (PRISMA)
     unit: 2
+    read:
+      - {label: PRISMA, url: /frameworks/prisma/}
   - n: 4
     week: 2
     date: 2027-02-12
     topic: Critical analysis + synthesis (MERC)
     unit: 2
+    read:
+      - {label: MERC, url: /frameworks/merc/}
+      - {label: Peer review guidelines, url: /frameworks/peer-review/}
+    assign: {label: Checkpoint 2, url: /assignments/checkpoint-2/}
   - n: 5
     week: 3
     date: 2027-02-16
     topic: Gap identification + positioning (TIPS)
     unit: 2
+    read:
+      - {label: TIPS, url: /frameworks/tips/}
   - n: 6
     week: 3
     date: 2027-02-19
@@ -63,16 +76,20 @@ classes:
     date: 2027-02-23
     topic: "Ethics + critical practice: card game"
     unit: 4
+    read:
+      - {label: Ethics card game, url: /games/#ethics-card-game}
   - n: 8
     week: 4
     date: 2027-02-26
     topic: Methodology, feasibility + pilot studies
     unit: 4
+    assign: {label: Communication portfolio, url: /assignments/communication-portfolio/}
   - n: 9
     week: 5
     date: 2027-03-05
     topic: Peer review intensive (Checkpoint 2)
     unit: 4
+    assign: {label: Research proposal, url: /assignments/research-proposal/}
   - n: 10
     week: 6
     date: 2027-03-09
@@ -83,6 +100,8 @@ classes:
     date: 2027-03-12
     topic: "Open science + reproducibility: LEGO challenge"
     unit: 5
+    read:
+      - {label: LEGO challenge, url: /games/#lego-reproducibility-challenge}
   - n: 12
     week: 7
     date: 2027-03-16
@@ -93,6 +112,8 @@ classes:
     date: 2027-03-19
     topic: Poster session + Research Futures challenge
     unit: 5
+    read:
+      - {label: Research Futures, url: /games/#research-futures}
 
 # The field trip replaces one class.
 fieldtrip:
@@ -109,6 +130,7 @@ fieldtrip:
 # long and short (the wording shown on the site).
 deadlines:
   - id: cp1_due
+    url: /assignments/checkpoint-1/
     label: Checkpoint 1
     date: 2027-02-21
     time: "23:59"
@@ -117,6 +139,7 @@ deadlines:
     date: 2027-02-24
     time: "23:59"
   - id: cp2_due
+    url: /assignments/checkpoint-2/
     label: Checkpoint 2
     date: 2027-02-28
     time: "23:59"
@@ -129,6 +152,7 @@ deadlines:
     date: 2027-03-03
     time: "23:59"
   - id: blog_due
+    url: /assignments/communication-portfolio/
     label: "Communication portfolio: blog post"
     date: 2027-03-07
     time: "23:59"
@@ -137,6 +161,7 @@ deadlines:
     date: 2027-03-14
     time: "23:59"
   - id: poster_pdf
+    url: /assignments/communication-portfolio/
     label: "Communication portfolio: poster PDF"
     date: 2027-03-15
     time: "23:59"
@@ -145,6 +170,7 @@ deadlines:
     date: 2027-03-21
     time: "23:59"
   - id: proposal_due
+    url: /assignments/research-proposal/
     label: Research proposal
     date: ""
     time: ""
