@@ -64,7 +64,7 @@ AI tools can speed up research when they scaffold your thinking. They undermine 
 
 Show where your ideas come from and cite with APA. All assignments are checked for plagiarism.
 
-Check every source you cite. If your work contains a fabricated reference, or credits a source with a claim it doesn't make, I treat it as a breach of the AI policy: you fail the assignment and I refer the case to the Board of Examiners.
+Check every source you cite. A fabricated reference, or a claim credited to a source that doesn't make it, counts as fraud: I report it to the Board of Examiners, which decides the sanction. That can mean the assignment is declared invalid.
 
 I don't want to read AI-generated text, and I don't much want to read AI-polished text either. It's flat, and it hides you. I want your own words and your own voice, rough edges included. Writing is thinking. Don't outsource your thinking.
 
