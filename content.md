@@ -7,8 +7,8 @@ section: Content
 
 ## [Assignments]({{ '/assignments/' | relative_url }})
 
-- [Checkpoint 1]({{ '/assignments/checkpoint-1/' | relative_url }}): research positioning and search strategy
-- [Checkpoint 2]({{ '/assignments/checkpoint-2/' | relative_url }}): critical analysis, synthesis and gaps
+- [Learning log]({{ '/assignments/learning-log/' | relative_url }}): five handwritten entries, after the games and DuST
+- [Checkpoint 2]({{ '/assignments/checkpoint-2/' | relative_url }}): critical analysis, synthesis, gaps and your search log
 - [Communication portfolio]({{ '/assignments/communication-portfolio/' | relative_url }}): blog post, poster and presentation
 - [Research proposal]({{ '/assignments/research-proposal/' | relative_url }})
 
@@ -22,6 +22,7 @@ section: Content
 
 ## [Games]({{ '/games/' | relative_url }})
 
+- [AI scenario sort]({{ '/games/' | relative_url }}#ai-scenario-sort) (Class 1)
 - [Ethics card game]({{ '/games/' | relative_url }}#ethics-card-game) (Class 7)
 - [LEGO reproducibility challenge]({{ '/games/' | relative_url }}#lego-reproducibility-challenge) (Class 11)
 - [Research Futures]({{ '/games/' | relative_url }}#research-futures) (Class 13)

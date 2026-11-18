@@ -61,7 +61,7 @@ Answerable: "What acoustic features best predict listener-perceived naturalness 
 
 ### 3/ Relevant
 
-Your research question should address genuine needs in research or applications.
+Your research question should address real needs in research or applications.
 
 Considerations:
 
@@ -139,14 +139,14 @@ When providing feedback on a colleague's RQ:
 - **Apply each criterion:** Which does the question satisfy well? Where could it strengthen?
 - **Be specific:** Don't just say "it's too broad" - explain what makes it broad and how to narrow it
 - **Suggest alternatives:** Offer concrete reframings
-- **Stay constructive:** Focus on improving the question, not criticizing the person
+- **Stay constructive:** Focus on improving the question, and leave the person out of it
 
 ### Common pitfalls and solutions
 
 - **The "everything" question:** Tries to answer too many questions at once. Solution: Break into separate focused questions; choose one as primary.
 - **The "someday" question:** Interesting but not feasible within constraints. Solution: Scale down to what you can accomplish, or shift to a related question with available methods.
 - **The "who cares" question:** Technically answerable but lacks clear significance. Solution: Connect to broader debates, practical problems, or theoretical frameworks.
-- **The "values" question:** Asks what should be rather than what is. Solution: Reframe to investigate empirical aspects of the issue.
+- **The "values" question:** Asks what should be, where research can only ask what is. Solution: Reframe to investigate empirical aspects of the issue.
 - **The "been there" question:** Already thoroughly investigated with no new angle. Solution: Identify specific gap, new context, or novel approach that distinguishes your work.
 
 ## Relationship to other frameworks
@@ -157,7 +157,7 @@ The FINER framework evaluates RQs as Feasible, Interesting, Novel, Ethical, and 
 
 Source: Hulley, S. B., Cummings, S. R., Browner, W. S., Grady, D. G., & Newman, T. B. (2013). *Designing clinical research* (4th ed.). Lippincott Williams & Wilkins.
 
-FARES adapts FINER by: replacing "Feasible" with "Answerable" (emphasizing methodological clarity); adding "Focused" (addressing scope definition critical for graduate work); adding "Empirical" (ensuring questions are testable through data); replacing "Novel" and "Interesting" with "Significant" (focusing on contribution rather than novelty per se); integrating "Ethical" considerations into "Relevant" and "Answerable" criteria.
+FARES adapts FINER by: replacing "Feasible" with "Answerable" (emphasizing methodological clarity); adding "Focused" (addressing scope definition critical for graduate work); adding "Empirical" (ensuring questions are testable through data); replacing "Novel" and "Interesting" with "Significant" (focusing on contribution over novelty per se); integrating "Ethical" considerations into "Relevant" and "Answerable" criteria.
 
 ### PICO framework
 
@@ -224,7 +224,7 @@ Strong: "Do listeners perceive emotional authenticity differently when they know
 - Key concepts can be observed/measured
 - Can be investigated through systematic data collection
 - Different possible answers are distinguishable
-- Tests facts/observations, not values/opinions
+- Tests facts/observations; values/opinions can't be tested
 
 **Significant:**
 

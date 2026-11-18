@@ -20,7 +20,7 @@ GitHub Pages builds the site automatically with Jekyll every time something is c
 | Assignment briefs | `assignments/` |
 | FARES, PRISMA, MERC, TIPS, peer review guidelines | `frameworks/` |
 | Games | `games.md` |
-| Frozen copies of each year's briefs | `archive/<year>/` |
+| Frozen copies of each year's briefs (made at release time) | `archive/<year>/` |
 | Menu | `_data/navigation.yml` |
 | Look and layout | `_layouts/default.html`, `assets/css/style.css` |
 

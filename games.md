@@ -5,7 +5,18 @@ section: Content
 
 # Games
 
-Three games run through the course. You play first; the discussion afterwards is where the learning happens.
+Four games run through the course. You play first; the discussion afterwards is where the learning happens, and the [learning log]({{ '/assignments/learning-log/' | relative_url }}) entry at the end of the class is where you write down what it means for your project.
+
+## AI scenario sort
+
+In Class 1 ({% include classdate.html n="1" fmt="short" %}) you sort six cards, each describing a way a student might use AI in their research, into three piles: appropriate (supports my learning), depends (context decides) and inappropriate (replaces my learning). You sort in groups of three or four.
+
+1. **Place (5 minutes).** Sort the six cards together as a group.
+2. **Argue (15 minutes).** Compare your piles with the other groups and argue the cards you split on.
+3. **Extract (7 minutes).** Name four or five principles behind your choices.
+4. **Record (3 minutes).** Photograph the piles and the principles.
+
+Your principles become the course's [AI policy]({{ '/syllabus/' | relative_url }}#ai-policy). [Learning log entry 1]({{ '/assignments/learning-log/' | relative_url }}#entry-1) follows at the end of the class.
 
 ## Ethics card game
 
@@ -37,6 +48,8 @@ There is no right answer on any card. What matters is which value you were willi
 
 The dilemma cards are handed out in class. In the second half of the class you write a dilemma card from your own project and play it with someone from another group.
 
+[Learning log entry 2]({{ '/assignments/learning-log/' | relative_url }}#entry-2) follows at the end of the class.
+
 ## LEGO reproducibility challenge
 
 In Class 11 ({% include classdate.html n="11" fmt="short" %}) you work in pairs, each pair with an identical LEGO kit. The game shows how much a description leaves out, even when its author thinks it's complete.
@@ -56,6 +69,8 @@ In Class 11 ({% include classdate.html n="11" fmt="short" %}) you work in pairs,
 
 The challenge is adapted from the LEGO® Metadata for Reproducibility game pack by Mary Donaldson and Matt Mahon (University of Glasgow, 2019, <https://doi.org/10.36399/gla.pubs.196477>), licensed CC BY 4.0. LEGO® is a trademark of the LEGO Group, which does not sponsor or endorse this course.
 
+[Learning log entry 4]({{ '/assignments/learning-log/' | relative_url }}#entry-4) follows at the end of the class.
+
 ## Research Futures
 
 Research Futures runs during the poster session in Class 13 ({% include classdate.html n="13" fmt="short" %}). Every student and guest gets five Research Futures grant notes and invests them in the projects they would fund.
@@ -68,3 +83,5 @@ Research Futures runs during the poster session in Class 13 ({% include classdat
 - Notes without a reason don't count.
 
 Each note has two lines to fill in: "Invested in (poster by):" and "Because:".
+
+[Learning log entry 5]({{ '/assignments/learning-log/' | relative_url }}#entry-5) follows once the results are in.

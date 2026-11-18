@@ -26,7 +26,7 @@ Transform your literature search into critical analysis. Move from discovering r
 
 ## How to submit
 
-You must write your checkpoint directly in Google Docs and share the link in BrightSpace with View access before the deadline. This is required so I can view the full version history, including when text was added, revised, moved, or deleted over time. This requirement exists because the assignment assesses your ability to develop and refine your research thinking, not only the final product. Documents that show a single bulk insertion of text or minimal revision will not be accepted for full credit.
+You must write your checkpoint directly in Google Docs and share the link in BrightSpace with View access before the deadline. This is required so I can view the full version history, including when text was added, revised, moved, or deleted over time. This requirement exists because the assignment assesses how you develop and refine your research thinking, as well as the final product. Documents that show a single bulk insertion of text or minimal revision will not be accepted for full credit.
 
 - ✅ Good signs: incremental writing over multiple sessions, visible deletion/revision, reorganization, gradual refinement
 - ⚠️ Warning signs: single large text insertions at the level of sentences, minimal edits, perfectly formatted on first draft, no visible struggle
@@ -36,7 +36,7 @@ If you use AI tools, include a short AI usage statement as described in our [cla
 
 ## What to submit
 
-Build on your Checkpoint 1 document. Don't start fresh if you can avoid it. Add the sections below, which deepen your engagement with the literature.
+Write Checkpoint 2 in one Google Doc and keep using it through to the proposal. Open it with your current RQ in one sentence, then add the sections below.
 
 ### 1. Critical analysis of key papers (800-1,200 words)
 
@@ -68,7 +68,7 @@ Address these questions across your papers:
 
 "Smith et al. (2020) studied ASR with 50 participants and found X. Jones (2021) also studied ASR with 100 participants and found Y. Lee (2022)..."
 
-*(The citations in these examples are illustrations, not real papers.)*
+*(The citations in these examples are invented for illustration.)*
 
 ### 2. Synthesis across literature (300-400 words)
 
@@ -82,7 +82,7 @@ Step back and identify patterns, contradictions, and evolution in your research 
 
 "Across seven studies (2015-2024), researchers consistently find that \[X\], despite different methodologies and populations. However, findings about \[Y\] remain contradictory: Author1 reports \[A\] while Author2 finds \[B\], likely due to Author1's focus on \[context A\] versus Author2's \[context B\]. Recent work (2022-2024) has shifted from \[old approach\] to \[new approach\], enabled by \[technological advancement\]."
 
-The goal: show how papers relate to each other, not just what each paper says individually.
+The goal: show how papers relate to each other.
 
 ### 3. Research gap identification (200-300 words)
 
@@ -108,15 +108,9 @@ For your strongest gap, briefly apply TIPS:
 
 Format options: write in paragraphs or create a visual (table, matrix, diagram) showing the gaps and your TIPS evaluation. Either works.
 
-### 4. Reflection on Checkpoint 1 feedback (100-150 words)
+### 4. Search log (not in word count)
 
-Use the peer reviews you received in FeedbackFruits (due {% include deadline.html id="cp1_review" fmt="medium" %}) and my feedback. Briefly address:
-
-- What changes did you make based on the feedback?
-- If you made significant revisions, what prompted them? Revise your Checkpoint 1 text in place so the version history shows the changes; add a comment where you want to point to a specific revision.
-- If your original approach remains sound, why?
-
-This shows your ability to integrate feedback, a crucial research skill.
+Link to your own copy of the [search log template](https://docs.google.com/spreadsheets/d/10lVOSnlg8q8xI0CnXCMTcTmXghzxeEKMmJsQ9ph3E7k/copy) from Class 3, w/ every search logged and the PRISMA counts tab filled in. Someone reading it should be able to rerun your search in at least three databases and get roughly the same set. No prose needed.
 
 ### 5. Complete bibliography (not in word count)
 
@@ -124,7 +118,6 @@ All papers cited in your expanded document, APA format (7th edition):
 
 - The 6-8 papers you analyzed
 - Additional papers from the synthesis or gap identification
-- Papers from Checkpoint 1
 - Likely 20-30 references in total
 
 Single alphabetized list. Every in-text citation must appear here; every entry must be cited in the text.
@@ -133,8 +126,8 @@ Single alphabetized list. Every in-text citation must appear here; every entry m
 
 Each criterion is scored at three levels: full points when it is fully met, half when it is partly met or thin, zero when it is missing.
 
-- **Critical analysis quality (3 points):** MERC framework applied systematically to 6-8 papers; papers organized thematically rather than individually; real critical evaluation showing both strengths and limitations; specific examples from papers support analytical points; engagement with the literature goes beyond surface-level summary.
-- **Synthesis depth (2 points):** clear integration across papers revealing patterns, contradictions, and evolution; demonstrates understanding of how the research area has developed; identifies both convergent findings and productive disagreements; shows how studies relate to each other rather than treating findings in isolation.
+- **Critical analysis quality (3 points):** MERC framework applied systematically to 6-8 papers; papers organized by theme; real critical evaluation showing both strengths and limitations; specific examples from papers support analytical points; engagement with the literature goes beyond surface-level summary.
+- **Synthesis depth (2 points):** clear integration across papers revealing patterns, contradictions, and evolution; demonstrates understanding of how the research area has developed; identifies both convergent findings and productive disagreements; shows how studies relate to each other.
 - **Gap identification quality (3 points):** 2-3 specific, well-defined gaps clearly emerging from the literature analysis; TIPS framework applied thoughtfully; gaps are both meaningful (would advance the field) and feasible (achievable in master's thesis scope); clear connection between the gaps and your critical analysis.
-- **Writing quality and organization (1 point):** clear, well-organized prose with logical flow between sections; APA citations correct and consistent; meets word count targets (±10%); precise writing appropriate for an academic audience; document builds coherently on Checkpoint 1.
-- **Revision and integration (1 point):** thoughtful response to Checkpoint 1 feedback with evidence of meaningful revisions; reflection demonstrates critical thinking about research direction; document shows progression from CP1 rather than a disconnected addition; revisions visible in the version history.
+- **Writing quality and organization (1 point):** clear, well-organized prose with logical flow between sections; APA citations correct and consistent; meets word count targets (±10%); precise writing appropriate for an academic audience.
+- **Search documentation (1 point):** the search log is complete: databases, exact strings, filters, hit counts and PRISMA counts, enough for someone else to rerun the search.

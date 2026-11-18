@@ -12,11 +12,11 @@ Peer review is central to research practice. This handout provides guidelines fo
 
 ## Effective peer review
 
-Peer review improves research quality through expert feedback (Benos et al., 2007). Effective peer review balances critical evaluation with constructive support, focusing on helping the work reach its full potential rather than finding fault.
+Peer review improves research quality through expert feedback (Benos et al., 2007). Effective peer review balances critical evaluation with constructive support, focusing on helping the work reach its full potential.
 
-### 1. Be constructive, not destructive
+### 1. Be constructive
 
-Frame feedback as opportunities for improvement rather than failures. Instead of "This analysis is weak," say "This analysis could be strengthened by addressing [specific issue]." Your goal is to help your peer produce better work, not to demonstrate your critical abilities.
+Frame feedback as opportunities for improvement. "This analysis is weak" doesn't help; "This analysis could be strengthened by addressing [specific issue]" does. Your goal is to help your peer produce better work.
 
 ### 2. Be specific and actionable
 
@@ -24,7 +24,7 @@ Vague feedback like "needs more depth" doesn't guide revision. Specific feedback
 
 ### 3. Balance strengths and areas for improvement
 
-Identify what works well before addressing problems. This isn't about "softening the blow"... it's about helping your peer understand which approaches are effective so they can build on them. Start with genuine strengths, then address areas needing work.
+Identify what works well before addressing problems. It helps your peer see which approaches work, so they can build on them. Start with real strengths, then address areas needing work.
 
 ### 4. Focus on major issues before minor ones
 
@@ -32,7 +32,7 @@ Address fundamental conceptual or methodological issues before commenting on for
 
 ### 5. Distinguish personal preference from actual problems
 
-Not every difference in approach represents a weakness. Be clear when you're suggesting an alternative approach ("Another way to frame this might be...") versus identifying a genuine problem ("This conclusion doesn't follow from the evidence presented").
+Not every difference in approach represents a weakness. Be clear when you're suggesting an alternative approach ("Another way to frame this might be...") versus identifying a real problem ("This conclusion doesn't follow from the evidence presented").
 
 ## Guidelines for giving feedback
 
@@ -54,8 +54,8 @@ When reviewing a peer's critical analysis or synthesis:
 
 **Use clear, professional language**
 
-- Address the work, not the person: "This section" not "You"
-- Use tentative language for suggestions: "Consider" or "Might" rather than "Must"
+- Address the work: write "This section…" and avoid "You…"
+- Use tentative language for suggestions: "Consider" or "Might", and avoid "Must"
 - Frame criticism as questions: "How does this evidence support this claim?"
 - Be direct but respectful: Clarity serves the work better than vagueness
 
@@ -73,7 +73,7 @@ Receiving feedback productively is as important as giving it. Skilled researcher
 
 - Take notes during feedback: You'll process better later than in the moment
 - Resist the urge to explain or defend: Save responses for clarifying questions only
-- Assume good intentions: Peers are trying to help, not attack
+- Assume good intentions: Peers are trying to help
 - Separate ego from work: Criticism of analysis isn't criticism of you as a researcher
 
 **Ask clarifying questions**
@@ -86,7 +86,7 @@ Receiving feedback productively is as important as giving it. Skilled researcher
 
 - Not all feedback is equally valuable: Consider the source and reasoning
 - Look for patterns: Multiple people noting the same issue suggests priority
-- Distinguish preference from problems: Some feedback reflects style, not substance
+- Distinguish preference from problems: Some feedback is only about style
 - You're not obligated to implement all suggestions: Use judgment
 
 **Create an action plan**
@@ -105,20 +105,20 @@ During the literature analysis and synthesis activities, focus feedback on:
 - Is methodology evaluation specific enough to guide judgment?
 - Does evidence assessment distinguish between strong and weak support?
 - Is relevance clearly connected to the presenter's research question?
-- Are contribution claims evaluated critically rather than just reported?
+- Are contribution claims evaluated critically, or only reported?
 
 **Quality of synthesis**
 
-- Does the presentation integrate insights rather than presenting parallel summaries?
+- Does the presentation integrate insights, or present parallel summaries?
 - Are methodological differences explored meaningfully?
-- Does analysis identify genuine patterns or contradictions?
+- Does analysis identify real patterns or contradictions?
 - Are theoretical implications drawn from comparative analysis?
 
 **Critical depth vs. description**
 
 - Does the analysis go beyond describing what papers say to evaluating it?
 - Are both strengths and limitations identified systematically?
-- Is there evidence of genuine engagement with methodological choices?
+- Is there evidence of real engagement with methodological choices?
 - Does the presenter demonstrate understanding of domain-specific considerations?
 
 ## What peer review is not
@@ -131,7 +131,7 @@ During the literature analysis and synthesis activities, focus feedback on:
 
 ## Note
 
-Effective peer review creates a culture where rigorous critique and generous support coexist. You're preparing not just to give good feedback in Class 4, but to participate in the scholarly community where peer review is central to advancing knowledge. The skills you develop here (critical evaluation, constructive feedback, and gracious reception of critique) will serve you throughout your research career.
+Effective peer review creates a culture where rigorous critique and generous support coexist. You're preparing to give good feedback in Class 4, and to take part in the scholarly community where peer review is central to advancing knowledge. The skills you develop here (critical evaluation, constructive feedback, and gracious reception of critique) will serve you throughout your research career.
 
 ## References
 

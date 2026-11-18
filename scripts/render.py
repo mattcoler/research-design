@@ -24,7 +24,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CONFIG = yaml.safe_load(open(os.path.join(ROOT, "_config.yml")))
 BASEURL = CONFIG.get("baseurl", "")
 SITEURL = CONFIG.get("url", "")
-BRIEFS = ["checkpoint-1", "checkpoint-2", "communication-portfolio", "research-proposal"]
+BRIEFS = ["learning-log", "checkpoint-2", "communication-portfolio", "research-proposal"]
 
 
 def load_site():

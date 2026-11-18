@@ -8,7 +8,7 @@ parent:
 
 # PRISMA: documenting a literature search
 
-PRISMA is how we report a literature search in this course. A documented search lets someone else rerun it and get roughly the same set of papers, and the PRISMA flow diagram shows every number from the first hits to the papers you kept. Checkpoint 1, part 2 asks for both. We work through it in Class 3 ({% include classdate.html n="3" fmt="medium" %}).
+PRISMA is how we report a literature search in this course. A documented search lets someone else rerun it and get roughly the same set of papers, and the PRISMA flow diagram shows every number from the first hits to the papers you kept. You hand in your search log as part 4 of [Checkpoint 2]({{ '/assignments/checkpoint-2/' | relative_url }}). We work through it in Class 3 ({% include classdate.html n="3" fmt="medium" %}).
 
 ## From a question to a search
 
@@ -54,7 +54,7 @@ An example for the accent question:
 - **Include:** published 2015 or later; empirical evaluation of an ASR system; reports error rates by accent group
 - **Exclude:** no breakdown by accent; abstracts or posters without results; duplicate versions of the same study
 
-Every criterion needs a reason you could defend: why 2015, why only empirical work? If a classmate sorts a title differently from you, the criteria need sharpening, not your classmate.
+Every criterion needs a reason you could defend: why 2015, why only empirical work? If a classmate sorts a title differently from you, it's the criteria that need sharpening.
 
 ## Run, log and count
 
@@ -97,7 +97,7 @@ The diagram has three stages. Fill in every number.
 
 - Studies included (n = )
 
-Templates are at [prisma-statement.org](http://prisma-statement.org/). A hand-drawn diagram is fine for Checkpoint 1.
+Templates are at [prisma-statement.org](http://prisma-statement.org/).
 
 ## References
 

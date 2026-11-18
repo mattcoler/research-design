@@ -9,7 +9,7 @@ wide: true
 
 # Schedule
 
-The course week by week, {{ s.year }}. Framework and game names link to their handouts. Prep tasks and readings are in BrightSpace.
+The course week by week, {{ s.year }}. Framework and game names link to their handouts. The last column shows what each class sets, including learning log entries. Prep tasks and readings are in BrightSpace.
 
 <table class="schedule">
 <thead><tr><th>Date</th><th>Class</th><th>Topic</th><th>Assignment</th></tr></thead>
@@ -51,7 +51,7 @@ The course week by week, {{ s.year }}. Framework and game names link to their ha
 {%- assign link = '<a href="' | append: href | append: '">' | append: r.label | append: '</a>' -%}
 {%- if t contains r.label -%}{%- assign t = t | replace: r.label, link -%}{%- else -%}{%- assign extra = extra | append: '<br>' | append: link -%}{%- endif -%}
 {%- endfor %}
-<tr><td class="nowrap">{{ c.date | date: "%a %-d %b" }}</td><td>{{ c.n }}</td><td>{{ t }}{{ extra }}</td><td>{% if c.assign %}<a href="{{ c.assign.url | relative_url }}">{{ c.assign.label }}</a>{% endif %}</td></tr>
+<tr><td class="nowrap">{{ c.date | date: "%a %-d %b" }}</td><td>{{ c.n }}</td><td>{{ t }}{{ extra }}</td><td>{% if c.assign %}<a href="{{ c.assign.url | relative_url }}">{{ c.assign.label }}</a>{% if c.log %}<br>{% endif %}{% endif %}{% if c.log %}<a href="{{ '/assignments/learning-log/' | relative_url }}#entry-{{ c.log }}">Learning log, entry {{ c.log }}</a>{% endif %}</td></tr>
 {%- assign prev = cd -%}
 {%- endfor -%}
 {%- for d in s.deadlines -%}

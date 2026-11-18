@@ -27,14 +27,16 @@ units:
   - n: 5
     name: Research communication
 
-# Each class can list handouts to read (read) and an assignment it launches
-# (assign). These are links, not dates, and rarely change.
+# Each class can list handouts to read (read), an assignment it launches
+# (assign), and the learning log entry written at the end (log).
+# These rarely change.
 classes:
   - n: 1
     week: 1
     date: 2027-02-02
     topic: Entering the conversation
     unit: 1
+    log: 1
   - n: 2
     week: 1
     date: 2027-02-05
@@ -42,7 +44,6 @@ classes:
     unit: 1
     read:
       - {label: FARES, url: /frameworks/fares/}
-    assign: {label: Checkpoint 1, url: /assignments/checkpoint-1/}
   - n: 3
     week: 2
     date: 2027-02-09
@@ -78,6 +79,7 @@ classes:
     unit: 4
     read:
       - {label: card game, url: /games/#ethics-card-game}
+    log: 2
   - n: 8
     week: 4
     date: 2027-02-26
@@ -102,6 +104,7 @@ classes:
     unit: 5
     read:
       - {label: LEGO challenge, url: /games/#lego-reproducibility-challenge}
+    log: 4
   - n: 12
     week: 7
     date: 2027-03-16
@@ -114,6 +117,7 @@ classes:
     unit: 5
     read:
       - {label: Research Futures challenge, url: /games/#research-futures}
+    log: 5
 
 # The field trip replaces one class.
 fieldtrip:
@@ -129,24 +133,16 @@ fieldtrip:
 # For a deadline without a fixed date yet, leave date empty and fill in
 # long and short (the wording shown on the site).
 deadlines:
-  - id: cp1_due
-    url: /assignments/checkpoint-1/
-    label: Checkpoint 1
-    date: 2027-02-21
-    time: "23:59"
-  - id: cp1_review
-    label: Peer review of Checkpoint 1 (FeedbackFruits)
-    date: 2027-02-24
-    time: "23:59"
   - id: cp2_due
     url: /assignments/checkpoint-2/
     label: Checkpoint 2
     date: 2027-02-28
     time: "23:59"
-  - id: dust_notes
-    label: DuST field notes (participation)
+  - id: log_dust
+    url: /assignments/learning-log/
+    label: Learning log entry 3 (DuST)
     date: 2027-03-03
-    time: ""
+    time: "23:59"
   - id: cp2_review
     label: Peer review of Checkpoint 2 (FeedbackFruits)
     date: 2027-03-03

@@ -52,7 +52,7 @@ How strong is the evidence presented? Are claims supported by the data?
 **Statistical rigor**
 
 - Are statistical tests appropriate and properly reported?
-- Are effect sizes reported (not just p-values)?
+- Are effect sizes reported, as well as p-values?
 - Is statistical power adequate?
 
 **Claims vs. data**

@@ -22,7 +22,7 @@ parent:
 
 ## Purpose
 
-Explain the study you are proposing to two audiences: readers outside your field (the blog post) and a mixed room of researchers and guests (the poster and presentation). Both describe a planned study, not completed research.
+Explain the study you are proposing to two audiences: readers outside your field (the blog post) and a mixed room of researchers and guests (the poster and presentation). Both describe a study you plan to do.
 
 ## 1. Blog post
 
@@ -30,7 +30,7 @@ Write a blog post that explains your research project to a general academic audi
 
 ### Writing process
 
-Write the post directly in Google Docs and share the link in BrightSpace with View access, so I can see the full version history. The assignment assesses how you develop an explanation of your research, not only the final text. Documents that show a single bulk insertion of text, or a one-session, start-to-finish writing process, will not be accepted for full credit.
+Write the post directly in Google Docs and share the link in BrightSpace with View access, so I can see the full version history. The assignment assesses how you develop an explanation of your research, as well as the final text. Documents that show a single bulk insertion of text, or a one-session, start-to-finish writing process, will not be accepted for full credit.
 
 ### Requirements
 

@@ -23,7 +23,7 @@ Seven teaching weeks, two 105-minute classes a week, {{ s.days }}, {{ s.time }}:
 4. **Research design:** ethics, methods, feasibility and pilots, and an intensive round of peer review
 5. **Research communication:** writing and revision, reproducibility, and academic posters
 
-On {% include tripdate.html fmt="medium" %} we go to {{ s.fieldtrip.name }} in {{ s.fieldtrip.place }}, which replaces the {% include tripdate.html which="replaces" fmt="medium" %} class. Class 8 explains what's expected.
+On {% include tripdate.html fmt="medium" %} we go to {{ s.fieldtrip.name }} in {{ s.fieldtrip.place }}, which replaces the {% include tripdate.html which="replaces" fmt="medium" %} class. Your notes from the day go into your learning log; Class 8 explains what's expected.
 
 Dates, handouts and deadlines are on the [schedule]({{ '/schedule/' | relative_url }}). Prep tasks and readings are in BrightSpace.
 
@@ -31,20 +31,19 @@ Dates, handouts and deadlines are on the [schedule]({{ '/schedule/' | relative_u
 
 | Component | Weight |
 | :---- | :---- |
-| [Checkpoint 1]({{ '/assignments/checkpoint-1/' | relative_url }}) | 5% |
-| Peer review of Checkpoint 1 | 5% |
+| [Learning log]({{ '/assignments/learning-log/' | relative_url }}) | 10% |
 | [Checkpoint 2]({{ '/assignments/checkpoint-2/' | relative_url }}) | 10% |
 | Peer review of Checkpoint 2 | 5% |
 | [Communication portfolio]({{ '/assignments/communication-portfolio/' | relative_url }}): blog post, poster, presentation | 20% |
 | Peer review of the communication portfolio | 5% |
-| [Research proposal]({{ '/assignments/research-proposal/' | relative_url }}) | 40% |
-| Participation | 10% |
+| [Research proposal]({{ '/assignments/research-proposal/' | relative_url }}) | 45% |
+| Participation | 5% |
 
-Checkpoint 1 and the peer reviews are graded for completion. Checkpoint 2, the portfolio and the proposal are graded with the rubric in each brief. Peer reviews run in FeedbackFruits.
+The learning log and the peer reviews are graded for completion. Checkpoint 2, the portfolio and the proposal are graded with the rubric in each brief. Peer reviews run in FeedbackFruits.
 
-You write the checkpoints, the blog post and the proposal in Google Docs and share them through BrightSpace, so the version history is visible.
+You write Checkpoint 2, the blog post and the proposal in Google Docs and share them through BrightSpace, so the version history is visible. The learning log you write by hand.
 
-Participation is self-assessed: after Class 13 you rate your preparation, your part in class, your help to others and your DuST field notes in a short form in BrightSpace.
+Participation is self-assessed: after Class 13 you rate your preparation, your part in class and your help to others in a short form in BrightSpace.
 
 ## AI policy
 

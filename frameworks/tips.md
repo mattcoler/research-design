@@ -27,7 +27,7 @@ Absence of research is not a reason to do research. Some combinations are unstud
 
 ### 1/ Theoretical significance
 
-Addressing the gap should change what we understand, not just add one more data point.
+Addressing the gap should change what we understand. One more data point isn't enough.
 
 Considerations:
 
@@ -139,7 +139,7 @@ Stronger: "Studies of accent bias in ASR have compared read speech across Englis
 - Ask for the evidence first: which papers show the gap?
 - Take each criterion in turn, and say which is weakest.
 - Play the sceptic: "Hasn't X already done this?" "Who would use the answer?" "Could you finish it within the thesis period?"
-- Suggest a fix, not just a problem.
+- Name the problem and suggest a fix.
 
 ## Quick reference checklist
 
