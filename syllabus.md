@@ -48,17 +48,9 @@ Participation is self-assessed: after Class 13 you rate your preparation, your p
 
 ## AI policy
 
-AI tools can speed up research when they scaffold your thinking. They undermine your development when they replace it. Each cohort revisits this policy in Week 1, and the BrightSpace version applies to your year.
+We write this course's AI policy together in Class 1. You sort scenarios of AI use and name the principles behind your choices; I turn them into a policy and post it in BrightSpace that week. It starts from the UG's [baseline rules](https://www.rug.nl/about-ug/organization/quality-assurance/education/artificial-intelligence-ai/).
 
-**Allowed, if you document it:** explaining unfamiliar concepts, methods or terms; finding papers and researchers; grammar and clarity edits on text you drafted; brainstorming variations on an RQ or a method. Read the actual papers, and never cite an AI summary.
-
-**Depends on how:** a summary of a paper you've already read is fine, one you use in place of reading it isn't. Having AI explain a statistical concept you're applying is fine; running analysis code you don't understand isn't. Discussing methodological trade-offs is fine; taking its recommendation without your own evaluation isn't.
-
-**Not allowed:** generating drafts of your texts; having AI analyse your data or interpret your results; generating peer review feedback; submitting AI-generated content without disclosure.
-
-**Documentation:** any assessed piece where you used AI includes a short statement saying which tool you used, what you asked it to do, and how you checked or changed the output. For example: "I used ChatGPT to explain Bayesian inference, then worked through examples myself before applying it to my design."
-
-**When in doubt,** ask yourself whether the AI helped you understand or just got the task done, and whether you could explain your choice if your supervisor asked. If not, reconsider. When you meet a case the policy doesn't cover, bring it to class.
+One rule holds from the start: any assessed piece where you used AI includes a short statement saying which tool you used, what you asked it to do, and how you checked or changed the output.
 
 ## Academic integrity
 
